@@ -9,12 +9,11 @@ import { Pagination } from "@/components/pagination/Pagination";
 export default function Home() {
   return (
     <div>
-      <div className={styles.content}>
+      <div className={styles.container}>
         <Featured />
         <CategoryList />
         <div className={styles.content}>
           <CardList />
-          <Pagination />
           <Menu />
         </div>
       </div>
