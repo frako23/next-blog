@@ -9,11 +9,6 @@ export const CardList = () => {
     <div className={styles.container}>
       <h1 className={styles.title}>Recent Posts</h1>
       <div className={styles.posts}>
-        <div className={styles.post}>
-          <div className={styles.imageContainer}>
-            <Image src="/p1.jpg" alt="" fill />
-          </div>
-        </div>
         <Card />
         <Card />
         <Card />
