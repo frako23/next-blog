@@ -33,13 +33,15 @@ export default function SinglePage() {
               mollitia nobis incidunt possimus maiores quae tempora, numquam
               eligendi asperiores fuga nam.
             </p>
-            <h2>Lorem ipsum dolor sit amet.</h2>
+
+            <h2 className={styles.h2}>Lorem ipsum dolor sit amet.</h2>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
               alias minima nemo harum laboriosam error natus atque velit
               mollitia nobis incidunt possimus maiores quae tempora, numquam
               eligendi asperiores fuga nam.
             </p>
+
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
               alias minima nemo harum laboriosam error natus atque velit
