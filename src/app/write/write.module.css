@@ -5,6 +5,7 @@
   display: flex;
   gap: 20px;
   height: 700px;
+  position: relative;
 }
 
 .button,
@@ -24,6 +25,38 @@
   border-color: #1a8917;
 }
 
+.add {
+  display: flex;
+  gap: 20px;
+  background-color: var(--bg);
+  position: absolute;
+}
+
+.input {
+  padding: 50px;
+  font-size: 64px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: white;
+}
+
+.input::placeholder {
+  color: #b3b3b1;
+}
+
 .textArea {
   width: 100%;
+}
+
+.publish {
+  position: absolute;
+  top: 150px;
+  right: 100px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #1a8917;
+  color: white;
+  cursor: pointer;
+  border-radius: 20px;
 }
