@@ -6,7 +6,6 @@ import { useSession, signIn, signOut } from "next-auth/react";
 
 export default function LoginPage() {
   const { data, status } = useSession();
-  console.log(data, status);
 
   const router = useRouter();
   if (status === "loading") {

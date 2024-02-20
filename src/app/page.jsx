@@ -6,14 +6,16 @@ import { CardList } from "@/components/cardList/CardList";
 import { Menu } from "@/components/menu/Menu";
 import { Pagination } from "@/components/pagination/Pagination";
 
-export default function Home() {
+export default function Home({ searchParams }) {
+  const page = parseInt(searchParams.page) || 1;
+
   return (
     <div>
       <div className={styles.container}>
         <Featured />
         <CategoryList />
         <div className={styles.content}>
-          <CardList />
+          <CardList page={page} />
           <Menu />
         </div>
       </div>
