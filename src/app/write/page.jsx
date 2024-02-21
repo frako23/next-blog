@@ -13,12 +13,13 @@ export default function Write() {
   const router = useRouter();
   const [open, setOpen] = useState(false);
   const [value, setValue] = useState("");
-  if (status === "loading") {
-    return <div className={styles.loading}>Loading...</div>;
-  }
-  if (status === "authenticated") {
-    router.push("/");
-  }
+  // if (status === "loading") {
+  //   return <div className={styles.loading}>Loading...</div>;
+  // }
+  console.log(status);
+  // if (status === "unauthenticated") {
+  //   router.push("/");
+  // }
   return (
     <div className={styles.container}>
       <input type="text" placeholder="Title" className={styles.input} />
